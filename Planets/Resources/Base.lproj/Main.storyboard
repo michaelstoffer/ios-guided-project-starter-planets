@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Collection View Controller-->
+        <!--Planet Collection View Controller-->
         <scene sceneID="l9u-gn-M98">
             <objects>
-                <collectionViewController id="vx1-Hc-wJg" sceneMemberID="viewController">
+                <collectionViewController id="vx1-Hc-wJg" customClass="PlanetCollectionViewController" customModule="Planets" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="uhD-kL-3qC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,12 +87,12 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4WI-oK-ODf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="966.66666666666674" y="115.84821428571428"/>
+            <point key="canvasLocation" x="1010" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="16E-Tp-5Uy">
             <objects>
-                <viewController id="8re-He-oK0" sceneMemberID="viewController">
+                <viewController id="8re-He-oK0" customClass="SettingsViewController" customModule="Planets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eEb-Mp-Fn4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,6 +112,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pmr-Uc-oNa">
                                         <rect key="frame" x="333" y="0.0" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="plutoSwitchToggled:" destination="8re-He-oK0" eventType="valueChanged" id="80Z-Hi-mmy"/>
+                                        </connections>
                                     </switch>
                                 </subviews>
                             </stackView>
@@ -126,6 +129,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="K9g-W6-Joi"/>
                     </view>
+                    <connections>
+                        <outlet property="plutoSwitch" destination="Pmr-Uc-oNa" id="hZ8-5K-bBW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFu-b6-Hlx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

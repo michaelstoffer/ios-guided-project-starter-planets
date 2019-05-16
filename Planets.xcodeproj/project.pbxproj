@@ -14,6 +14,8 @@
 		9DDBBD19211360D100A55978 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD18211360D100A55978 /* Planet.swift */; };
 		9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBBD1E211360F500A55978 /* PlanetController.swift */; };
 		D631EB40228CFD6400F071A9 /* PlanetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB3F228CFD6400F071A9 /* PlanetCollectionViewCell.swift */; };
+		D631EB42228CFE9700F071A9 /* PlanetCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB41228CFE9700F071A9 /* PlanetCollectionViewController.swift */; };
+		D631EB44228CFEE400F071A9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D631EB43228CFEE400F071A9 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9DDBBD18211360D100A55978 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		9DDBBD1E211360F500A55978 /* PlanetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetController.swift; sourceTree = "<group>"; };
 		D631EB3F228CFD6400F071A9 /* PlanetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewCell.swift; sourceTree = "<group>"; };
+		D631EB41228CFE9700F071A9 /* PlanetCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetCollectionViewController.swift; sourceTree = "<group>"; };
+		D631EB43228CFEE400F071A9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXGroup;
 			children = (
 				D631EB3F228CFD6400F071A9 /* PlanetCollectionViewCell.swift */,
+				D631EB41228CFE9700F071A9 /* PlanetCollectionViewController.swift */,
+				D631EB43228CFEE400F071A9 /* SettingsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			files = (
 				D631EB40228CFD6400F071A9 /* PlanetCollectionViewCell.swift in Sources */,
 				9DDBBD1F211360F500A55978 /* PlanetController.swift in Sources */,
+				D631EB42228CFE9700F071A9 /* PlanetCollectionViewController.swift in Sources */,
 				9DDBBD072113609700A55978 /* AppDelegate.swift in Sources */,
 				9DDBBD19211360D100A55978 /* Planet.swift in Sources */,
+				D631EB44228CFEE400F071A9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
